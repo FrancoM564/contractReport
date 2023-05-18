@@ -175,7 +175,7 @@ mod contract_report {
                 }else{
 
                     balance_to_owner = punishment_deposit - reward;
-                    balance_to_reporter = 0;
+                    balance_to_reporter = reward;
 
                 }
             }
